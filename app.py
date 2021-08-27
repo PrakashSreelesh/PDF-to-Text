@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
-@app.route('/uploader')
+@app.route('/')
 def uploader_file():
   return("HELLO WORLD!")
 
